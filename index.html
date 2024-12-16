@@ -1,53 +1,137 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-    <!-- Jeu de caractères utilisé pour l'encodage du fichier HTML -->
     <meta charset="UTF-8">
-    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Titre de la page -->
-    <title>CV de Maksym Zdorovtsov</title>
-    <!-- Auteur -->
-    <meta name="author" content="Maksym Zdorovtsov">
-    <!-- Description de la page -->
-    <meta name="description" content="CV de Maksym Zdorovtsov etudiante de EMT">
-    <!-- Reset CSS Normalize CSS -->
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <!-- CSS de base -->
-    <link rel="stylesheet" href="css/main.css"/>
-    <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
-    <link rel="manifest" href="./site.webmanifest">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <title>CV Максим</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000, #1a1a2e, #602b8d, #9f00ff);
+            background-attachment: fixed;
+            color: #ffffff;
+        }
+        header, nav, footer {
+            text-align: center;
+            padding: 10px;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        h2 {
+            border-bottom: 2px solid #9f00ff;
+            padding-bottom: 10px;
+        }
+        footer {
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <a href="#" class="logo">Logo du site</a>
-    <img src="img/{742DFCA7-ECA3-40CA-A352-98AD55CE6665}.png" alt="Screen capture">
+    <header>
+        <h1>Здоровцов Максим</h1>
+        <p>Email: <a href="mailto:Zdorovtsov.maxim@gmail.com">Zdorovtsov.maxim@gmail.com</a></p>
+        <p>Телефон: +41 765142961 / +41 795115304</p>
+        <p>Адрес: le Genevrier 6, 2950 Courgenay</p>
+    </header>
+
     <nav>
-        <ul class="menu">
-            <li>
-                <a href="#">Lien #1</a>
-            </li>
-             <li>
-                <a href="#">Lien #2</a>
-            </li>
-             <li>
-                <a href="#">Lien #3</a>
-            </li>
+        <ul>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#experience">Опыт работы</a></li>
+            <li><a href="#skills">Навыки</a></li>
+            <li><a href="#interests">Интересы</a></li>
+            <li><a href="#languages">Языки</a></li>
         </ul>
     </nav>
-  </header>    
-  <main>
-    <h1>Titre principal de la page</h1>
-    <p>Un paragraphe pas trop long à lire</p>
-  </main>
-  <footer>
-    &copy;2021 Laure Dinateur
-  </footer>
+
+    <main>
+        <section id="education">
+            <h2>Образование</h2>
+            <ul>
+                <li>Гимназия международных отношений, Киев, Украина (2011-2022)</li>
+                <li>Университет технологий и дизайна, Киев (с 2022) - Специальность "Руководитель IT-проектов"</li>
+                <li>Avenir Formation PréFor, Поррентруи (2022-2023)</li>
+                <li>Школа общей культуры, Делемон (2023- )</li>
+            </ul>
+        </section>
+
+        <section id="experience">
+            <h2>Опыт работы</h2>
+            <ul>
+                <li>Розничная/оптовая торговля: экологический рынок, медицинские маски</li>
+                <li>Строительство: сборка/разборка мебели, грузоперевозки</li>
+                <li>Анимация для детей: программы развлечений</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Навыки</h2>
+            <h3>Личные качества:</h3>
+            <ul>
+                <li>Лидерские качества</li>
+                <li>Коммуникативные способности</li>
+                <li>Креативность</li>
+                <li>Универсальный подход к решению проблем</li>
+            </ul>
+            <h3>Технические навыки:</h3>
+            <ul>
+                <li>HTML - Средний</li>
+                <li>Python - Начальный</li>
+                <li>MySQL - Начальный</li>
+                <li>Adobe Photoshop/Express - Средний</li>
+                <li>Microsoft Word/PowerPoint - Эксперт</li>
+                <li>Sweet Home 3D - Эксперт</li>
+                <li>FreeCAD - Средний</li>
+            </ul>
+        </section>
+
+        <section id="interests">
+            <h2>Интересы</h2>
+            <ul>
+                <li>Спорт: тяжелая атлетика, настольный теннис, карате кёкушинкай, плавание, шахматы</li>
+                <li>Фотография и видеография</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Языки</h2>
+            <ul>
+                <li>Французский - B2</li>
+                <li>Английский - B2</li>
+                <li>Немецкий - A1</li>
+                <li>Украинский - C2</li>
+                <li>Русский - C2</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Здоровцов Максим. Все права защищены.</p>
+    </footer>
 </body>
 </html>
- 
