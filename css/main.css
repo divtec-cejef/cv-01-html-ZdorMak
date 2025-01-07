@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(135deg, #1a1a2e, #16213e 50%, #0f3460 75%, #53354a);  
+    align-items: center;
 }
 main {
     
