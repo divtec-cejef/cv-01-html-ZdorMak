@@ -1,5 +1,5 @@
 body {
-    background-image: url('img/Bg%20CV%201.webp');
+    background-image: url('../img/Bg%20CV%201.webp');
             background-repeat: no-repeat; /* Отключает повтор */
             background-size: cover; /* Масштабирует изображение по размеру экрана */
             background-position: center; /* Центрирует изображение */
@@ -11,7 +11,7 @@ main {
 }
 
 h1 {
-    ../img/Bg%20CV%201.webp
+
 }
 
 h2 {
