@@ -1,23 +1,105 @@
+/* Основные стили для документа */
 body {
-    background-image: url('divtec-cejef/cv-01-html-ZdorMak/tree/main/img');
-            margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1a2e, #16213e 50%, #0f3460 75%, #53354a);  
+    align-items: center;
+    color: #333;
 }
+
+/* Стили для заголовка и изображения */
+header {
+    text-align: center;
+    background-color: #0078d7;
+    color: white;
+    padding: 20px 0;
+}
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Стили для навигации */
+nav {
+    background-color: #005bb5;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Основной контент */
 main {
-    
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-
+section {
+    margin-bottom: 20px;
 }
 
-h2 {
-    color: #f5f5f5;
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0078d7;
+    padding-bottom: 5px;
 }
 
-p {
-    
-}
-a {
-    color: #dcdde1;
+section ul {
+    list-style: square;
+    margin-left: 20px;
 }
 
+/* Стили для подзаголовков */
+section h3 {
+    font-size: 1.4rem;
+    color: #005bb5;
+    margin-top: 15px;
+}
+
+/* Стили для footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
