@@ -13,9 +13,9 @@ header {
   
 }
 header img {
-    border-radius: 50%;
+    border-radius: 10%;
     width: 150px;
-    height: auto;
+    height: 150px;
     margin-bottom: 15px;
 }
 header h1 {
