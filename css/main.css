@@ -3,7 +3,6 @@ body {
             background-repeat: no-repeat; /* Отключает повтор */
             background-size: cover; /* Масштабирует изображение по размеру экрана */
             background-position: center; /* Центрирует изображение */
-            background-attachment: fixed; /* Фиксирует фон при прокрутке */
             margin: 0;
 }
 main {
